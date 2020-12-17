@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+
+        <Button
+            android:id="@+id/btnMenu1"
+            android:text="MENU 1"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="80dp"/>
+
+        <Button
+            android:id="@+id/btnMenu2"
+            android:text="MENU 2"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnMenu3"
+            android:text="MENU 3"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="80dp"/>
+
+        <Button
+            android:id="@+id/btnMenu4"
+            android:text="MENU 4"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
